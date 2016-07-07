@@ -29,8 +29,21 @@ video.selectorMenu()
           label: "1080p",
           src: "Some/vod/URL.mp4",
           type: "video/mp4"
+        },
+        //audil example
+        {
+          id: 3,
+          selected: false,
+          label: "Audio Only",
+          src: "Some/audio.mp3",
+          type: "audio/mp3"
         }
-        
+        /*
+        The menu will look like 
+           [auto]
+           [1080p]
+         [Audio Only]
+        */
       ],
       onChange: function () {
           console.log("bitrate "+this.label+" was clicked")
