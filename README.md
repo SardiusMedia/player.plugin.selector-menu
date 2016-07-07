@@ -1,7 +1,7 @@
 # player.plugin.selector-menu
 A Bitrate selector menu
 
-# Initialize 
+## Initialize 
 
 ```Javascript
 var video = videojs("#id",{plugins{selectorMenu: {},})
@@ -9,7 +9,7 @@ var video = videojs("#id",{plugins{selectorMenu: {},})
 video.selectorMenu()
 ```
 
-# Set Bitrates
+## Set Bitrates
 
 ```Javascript
    player.trigger('menudataready', {
@@ -39,5 +39,5 @@ video.selectorMenu()
     });
 ```
 
-# build 
+## build 
 ```npm run build```
