@@ -26,7 +26,7 @@ video.selectorMenu()
         {
           id: 1,
           selected: false,
-          label: "auto",
+          label: "1080p",
           src: "Some/vod/URL.mp4",
           type: "video/mp4"
         }
