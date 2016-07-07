@@ -4,7 +4,7 @@ A Bitrate selector menu
 ## Initialize 
 
 ```Javascript
-var video = videojs("#id",{plugins{selectorMenu: {},})
+var video = videojs("#id",{plugins:{selectorMenu: {}},function(){})
 // or
 video.selectorMenu()
 ```
