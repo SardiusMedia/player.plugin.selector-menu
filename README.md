@@ -40,4 +40,4 @@ video.selectorMenu()
 ```
 
 ## build 
-```npm run build```
+```webpack```
