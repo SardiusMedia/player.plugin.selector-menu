@@ -12,7 +12,7 @@ video.selectorMenu()
 ## Set Bitrates
 
 ```Javascript
-   player.trigger('menudataready', {
+   video.trigger('menudataready', {
       menuData:[
       //stream example
         {
